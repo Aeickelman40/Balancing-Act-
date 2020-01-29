@@ -1,0 +1,17 @@
+body {
+  font-family: 'Biryani', sans-serif;
+  color: #363636;
+  background-color: #F5F5F5;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-image: linear-gradient(to bottom, #8ED1DC, #E3F4F6);
+}
