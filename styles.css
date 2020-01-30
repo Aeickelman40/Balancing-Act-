@@ -2,16 +2,105 @@ body {
   font-family: 'Biryani', sans-serif;
   color: #363636;
   background-color: #F5F5F5;
+  padding: 0;
+  margin: 0;
 }
-
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 10%;
+  width: 8%;
   height: 100%;
-  position: fixed;
+  position: relative;
+  float: left;
   overflow: auto;
-  background-image: linear-gradient(to bottom, #8ED1DC, #E3F4F6);
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  /* display: inline-block; */
+}
+
+th, td {
+  float: auto;
+}
+
+/* nav {
+  float: left;
+}
+*/
+.transactionsMenu {
+  float: right;
+  /* display: inline-block; */
+  background-color: white;
+  padding: 30px;
+  width: 40%;
+  height: 525px;
+  margin: 20px;
+  position: relative;
+  bottom: 630px;
+}
+
+.accounts {
+  float: left;
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  margin: 8px;
+  position: relative;
+}
+
+.recentTransactions {
+  position: relative;
+}
+
+.singleTransaction th,
+.singleTransaction td {
+  border-bottom: 1px solid #ddd;
+  padding: 7px;
+}
+
+.welcome {
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  height: 75px;
+}
+
+.button {
+  background-color: #1CA3BA;
+  color: white;
+  border-radius: 10px;
+  display: inline;
+  float: right;
+  height: 30px;
+}
+
+.boxes {
+  display: inline-block;
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.clearfix: after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.elephant {
+  width: 100px;
+  padding: 10px;
+}
+
+.dashboard,
+.transactions,
+.profile {
+  padding: 10px;
+  width: 50px;
+  position: relative;
+  top: 200px;
+}
+
+.leftSide {
+  width: 50%;
 }
