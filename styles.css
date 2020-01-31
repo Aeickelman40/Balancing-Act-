@@ -48,7 +48,7 @@ h1 {
   height: 525px;
   margin: 20px;
   position: relative;
-  bottom: 630px;
+  bottom: 655px;
   box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
 }
 
@@ -57,7 +57,7 @@ h1 {
   background-color: white;
   padding: 15px;
   width: 80%;
-  margin: 0px 0px 20px 20px;
+  margin: 0px 0px 8px 18px;
   position: relative;
   box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
 }
@@ -109,6 +109,7 @@ h1 {
   background-color: #E3F4F6;
   border: none;
 }
+
 .boxes {
   display: inline-block;
   background-color: white;
@@ -153,5 +154,6 @@ h1 {
 
 .leftSide {
   width: 50%;
+  height: 100%;
   margin: 0px 0px 0px 20px;
 }
