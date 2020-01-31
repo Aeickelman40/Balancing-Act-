@@ -9,7 +9,7 @@ body {
 ul {
   list-style-type: none;
   width: 8%;
-  height: 100%;
+  height: 200%;
   position: relative;
   float: left;
   overflow: auto;
@@ -21,6 +21,18 @@ ul {
 
 th, td {
   float: auto;
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.recentTransactions table {
+  border-collapse: collapse;
 }
 
 /* nav {
@@ -37,15 +49,23 @@ th, td {
   margin: 20px;
   position: relative;
   bottom: 630px;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
 }
 
 .accounts {
   float: left;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   width: 80%;
-  margin: 8px;
+  margin: 0px 0px 20px 20px;
   position: relative;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+}
+
+.accounthead {
+  width: 93%;
+  position: relative;
+  left: 20px;
 }
 
 .recentTransactions {
@@ -53,32 +73,50 @@ th, td {
 }
 
 .singleTransaction th,
-.singleTransaction td {
-  border-bottom: 1px solid #ddd;
-  padding: 7px;
+.singleTransaction td,
+.singleTransaction tr {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0px 62px 13px 0px;
 }
 
 .welcome {
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
-  height: 75px;
+  height: 60px;
+  position: relative;
+  top: 0px;
+  left: 110px;
+  width: 78%;
+  padding: 10px;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+  display: block;
 }
 
 .button {
   background-color: #1CA3BA;
   color: white;
-  border-radius: 10px;
-  display: inline;
+  border-radius: 20px;
+  display: inline-block;
   float: right;
-  height: 30px;
+  height: 40px;
+  cursor: pointer;
+  width: 200px;
+  font-size: 15px;
 }
 
+.closebutton {
+  float: right;
+  cursor: pointer;
+  background-color: #E3F4F6;
+  border: none;
+}
 .boxes {
   display: inline-block;
   background-color: white;
   width: 150px;
   height: 100px;
-  margin: 10px;
+  margin: 15px;
   padding: 10px;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
 }
 
 .clearfix: after {
@@ -99,8 +137,21 @@ th, td {
   width: 50px;
   position: relative;
   top: 200px;
+  left: 20px;
+}
+
+.dashboard {
+  border-left: 5px solid #1CA3BA;
+}
+
+.closeButton {
+  float: right;
+  padding: 10px;
+  width: 20px;
+  z-index: 10;
 }
 
 .leftSide {
   width: 50%;
+  margin: 0px 0px 0px 20px;
 }
