@@ -107,6 +107,20 @@ input {
   font-size: 15px;
 }
 
+.buttonTwo {
+  background-color: #1CA3BA;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  float: right;
+  height: 40px;
+  cursor: pointer;
+  width: 120px;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+}
+
 .closebutton {
   float: right;
   cursor: pointer;
@@ -165,4 +179,12 @@ input {
 
 .hide {
   display: none;
+}
+
+.transactionsPage {
+
+}
+
+.walletLeft {
+  background-color: white;
 }
