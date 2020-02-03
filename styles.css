@@ -35,6 +35,7 @@ input {
   outline: none;
 }
 
+
 .recentTransactions table {
   border-collapse: collapse;
 }
@@ -121,6 +122,20 @@ input {
   top: 30px;
 }
 
+.buttonThree {
+  color: #1CA3BA;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  float: right;
+  height: 40px;
+  cursor: pointer;
+  width: 120px;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+}
+
 .closebutton {
   float: right;
   cursor: pointer;
@@ -187,4 +202,29 @@ input {
 
 .walletLeft {
   background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+  /* position: relative; */
+  /* top: 80px; */
+  /* z-index: 0; */
+}
+
+.walletRight {
+  background-color: white;
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 30px;
+  float: right;
+  left: 650px;
+  /* bottom: 1000px; */
+  width: 80%;
+  display: inline;
+  /* height: 100%; */
+  /* margin: 0px 0px 0px 20px; */
+}
+
+.walletRightHeader {
+  text-align: center;
+}
+
+.walletHeader {
 }
